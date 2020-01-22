@@ -1,0 +1,30 @@
+.container{
+    text-align: center;
+}
+.board{
+    display: flex;
+    justify-content: center;
+}
+.cell {
+    height: 30px;
+    width: 30px;
+    border: 1px solid red;
+    background-color: blue;
+}
+
+.cell span {
+    height: 25px;
+    width: 30px;
+    display: none;
+    text-align: center;
+    padding-top: 5px;
+}
+.shown{
+background-color: cadetblue;
+}
+.mine{
+    background-color: red;
+}
+.safe{
+    background-color: green;
+}
