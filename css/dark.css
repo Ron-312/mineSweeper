@@ -1,0 +1,43 @@
+body{
+    color: white;
+   background-color:black;
+}
+button{
+    background-color: rgb(17, 7, 48);
+    color: lightgray;
+}
+.container{
+    text-align: center;
+    background-color: darkslategrey;
+}
+.board{
+    display: flex;
+    justify-content: center;
+}
+.cell {
+    height: 30px;
+    width: 30px;
+    border: 1px solid lightseagreen;
+    background-color:gray;
+    color: black;
+}
+
+.cell span {
+    height: 25px;
+    width: 30px;
+    display: none;
+    text-align: center;
+    padding-top: 5px;
+}
+.shown{
+background-color: white;
+}
+.mine{
+    background-color: darkred;
+}
+.safe{
+    background-color: lightgreen;
+}
+.manual-mine{
+    background-color: lightgreen;
+}

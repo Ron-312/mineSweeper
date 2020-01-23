@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
+    <link class="link" rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
@@ -15,20 +15,23 @@
             <button class="easy" onclick="initGame(4,2,2)">Easy</button>
             <button class="hard" onclick="initGame(8,12,3)">Hard</button>
             <button class="harder" onclick="initGame(12,30,3)">Harder</button>
-            <div class="score">Your Best Score:</div>
+            <button class="manual" onclick="manualInitGame()">Manual Initiaition</button>
+            <div class="best-score">Your Best Score:</div>
         </div>
         <div class="reset" onclick="initGame()"><button class="reset-btn">😐</button></div>
+        <div class="undo"><button class="undo-btn" onclick="undoClick()">Undo</button></div>
         <div class="top">
-            <div class="score">0</div>
+            <div class="mines-left">0</div>
             <div class="lives"></div>
             <div class="timer">00</div>
             <div><button class="hints" onclick="getAHint(this)">3 Hints Left!</button>
-                <button class="safe" onclick="getSafeClick()">3 Safe clicks Left!</button>
+                <button class="safeClick" onclick="getSafeClick()">3 Safe clicks Left!</button>
             </div>
         </div>
         <div class="board">
 
         </div>
+        <div><button class="mode-switch" onclick="modeSwitch()">Click to Dark Mode</button></div>
     </div>
     <script src="js/minesweeper.js"></script>
     <script src="js/util.js"></script>

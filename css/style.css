@@ -1,5 +1,6 @@
 .container{
     text-align: center;
+    background-color: lightskyblue;
 }
 .board{
     display: flex;
@@ -26,5 +27,8 @@ background-color: cadetblue;
     background-color: red;
 }
 .safe{
+    background-color: green;
+}
+.manual-mine{
     background-color: green;
 }
