@@ -15,7 +15,6 @@ function getRandomIntInclusive(min, max) {
 }
 
 function renderBoard(board, selector) {
-  debugger
   var strHTML = '<table border="0"><tbody>';
   for (var i = 0; i < board.length; i++) {
     strHTML += '<tr>';
